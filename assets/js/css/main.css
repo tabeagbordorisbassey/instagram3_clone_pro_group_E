@@ -1,0 +1,138 @@
+
+
+
+,*::before, ::after{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+ }
+ .body{
+     font-size:  1rem; 
+ }
+ 
+ .instalogo{
+     height: 100px;
+     width:75%;
+ 
+ }
+ 
+ 
+ .box{
+     height: 300px;
+     width: 500px;
+ }
+ form{
+     outline: 1px solid grey;
+     width: 33%;
+     margin-left: 350px;
+ 
+     padding: right 10px;
+     padding-left:5px;
+     padding-top: 5px;
+     padding-bottom:55px;
+     display: flex;
+     height: 59vh;
+     
+       
+     
+     background-color: #ffffff;
+     
+     
+ } 
+ #div1{
+     background-color:  #ffffff;
+     width: px;
+     box-sizing: 50px;
+ }
+ .form-control{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding: 5px;
+     padding-bottom:;
+     height: 30px;
+     text-align: center;
+ }
+ 
+ 
+ &::before,
+ &::after{
+ content:;
+ display:;
+ }
+ &::after{
+ 
+ }
+ .faicone{
+     margin-top: 50px;
+ }
+ .flogin{
+     color: rgba(var(--fe0,0,55,107),1);  
+     text-decoration: none;
+ }
+ .Forgot-password{
+     color: rgba(var(--fe0,0,55,107),1);   
+     text-decoration: none;
+ }
+ .line{
+     display: flex;
+     margin-bottom: 7px;
+ }
+ .arrow{
+ background-color: gray;
+ height: 1px;
+ width: 50%;
+ 
+ 
+ }
+ .content{
+     color: gray;
+     margin-top: -8px;
+     margin-left: 4px;
+     margin-right: 4px;
+     
+ }
+ .signup{
+     
+     border: 1px solid #e6e6e6; 
+     border-radius: 1px; 
+     width:110%;
+     height: 50px;
+     display: ;
+     padding-left: 20px;
+     margin-left: -10px;
+ 
+     }
+ 
+ .slider{
+     width: 1000px; 
+     height: 400px;
+     background-image: url(image/happy1.png);
+     background-repeat: no-repeat;
+     margin: 100px auto;
+     animation: slide 10s infinite;
+ }
+ 
+ @keyframes slide{
+     25%{
+         background-image: url(image/happy1.png);
+     }
+     50%{
+         background-image: url(image/girlCat2.png);
+     } 
+     75%{
+         background-image: url(image/friends3.png);
+     } 
+     100%{
+         background-image: url(image/message4.png);
+     } 
+ }
+ .position{
+     margin-top: 42px;
+ }
+ .btn {
+    width: 100%;
+    height: 35px;
+ }
+  
+ /*end css*/
